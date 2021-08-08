@@ -63,6 +63,7 @@ int main()
 	char a;
 	scanf(" %c",&a);
 	if(a=='y'){
+		system("cls");
 		goto jump;
 	}
 	else{
