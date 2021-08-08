@@ -24,6 +24,7 @@ int main()
 	scanf("%c",&enter);
 	system("cls");
 	jump:
+	{
 	     int number,guess,no_of_guesses=1,flag=0;
 		 srand(time(0));
 		 number=rand()%50+1;
@@ -57,6 +58,7 @@ int main()
 			system("cls");
 			printf("\n\n\n\t\t\tCONGRATS..! YOU WON !!.\n");
 		}
+	}
 	printf("\nDo you want to try again (y/n):");
 	char a;
 	scanf(" %c",&a);
