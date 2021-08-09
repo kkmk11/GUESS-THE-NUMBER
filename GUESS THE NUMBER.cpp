@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
-void clear(char enter)
+void clear(char enter);
 int main()
 {
 	char enter;
