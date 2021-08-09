@@ -14,7 +14,7 @@ int main()
 	printf("  a)Lower to the number you guessed. (or)\n");
 	printf("  b)Higher to the number you guessed.\n");
 	printf("\nNOTE:1)You have only 5 attempts.\n");
-	printf("     2)Attempts are represented by a star(*).");
+	printf("     2)Attempts are represented by a heart symbol.");
 	clear(enter);
 	printf("\n\n\n\n\t\t\t\t\t  ALL THE BEST!\n\n\n\n");
 	clear(enter);
@@ -26,9 +26,10 @@ int main()
 		 printf("Guess a number in between 1-50---->\n");
 		 int n=5,i;
 	 	 do{
+			int a=3;
 			printf("\nGuess a number:\t");
 			for(i=n;i>=1;i--){
-				printf(" * ");
+				printf(" %c ",a);
 			}
 			printf("\n");
 			scanf("%d",&guess);
