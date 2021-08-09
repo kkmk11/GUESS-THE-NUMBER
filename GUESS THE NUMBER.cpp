@@ -14,7 +14,7 @@ int main()
 	printf("  a)Lower to the number you guessed. (or)\n");
 	printf("  b)Higher to the number you guessed.\n");
 	printf("\nNOTE:1)You have only 5 attempts.\n");
-	printf("     2)Attempts are represented by a heart symbol.");
+	printf("     2)Attempts are represented by a heart(%d).",3);
 	clear(enter);
 	printf("\n\n\n\n\t\t\t\t\t  ALL THE BEST!\n\n\n\n");
 	clear(enter);
