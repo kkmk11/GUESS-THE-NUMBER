@@ -1,13 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+void clear(char enter)
 int main()
 {
 	char enter;
 	printf("\n\n\n\n\t\t\t\t******** GUESS THE NUMBER ********\n\n\n\n");
-	printf("\t\t\t\t      Press ENTER to continue\n");
-	scanf("%c",&enter);
-	system("cls");
+	clear(enter);
 	printf("INSTRUCTIONS:\n");
 	printf("1)Try to guess the number between 1-50.\n");
 	printf("2)If your guess is correct, then you will win the game.\n");
@@ -16,13 +15,9 @@ int main()
 	printf("  b)Higher to the number you guessed.\n");
 	printf("\nNOTE:1)You have only 5 attempts.\n");
 	printf("     2)Attempts are represented by a star(*).");
-	printf("\n\n\n\n\t\t\t\t      Press ENTER to continue\n");
-	scanf("%c",&enter);
-	system("cls");
+	clear(enter);
 	printf("\n\n\n\n\t\t\t\tALL THE BEST!\n\n\n\n");
-	printf("\t\t\t    Press ENTER to continue\n");
-	scanf("%c",&enter);
-	system("cls");
+	clear(enter);
 	jump:
 	{
 	     int number,guess,no_of_guesses=1,flag=0;
@@ -71,4 +66,9 @@ int main()
 		printf("\n\n\n\n\t\t\t\t----------THANK YOU !----------\n\n\n\n");
 	}
 	return 0;
+}
+void clear(char enter){
+	printf("\n\n\n\n\t\t\t\t\t   Press ENTER to continue");
+	scanf("%c",&enter);
+	system("cls");
 }
