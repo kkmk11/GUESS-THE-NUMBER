@@ -16,7 +16,7 @@ int main()
 	printf("\nNOTE:1)You have only 5 attempts.\n");
 	printf("     2)Attempts are represented by a star(*).");
 	clear(enter);
-	printf("\n\n\n\n\t\t\t\tALL THE BEST!\n\n\n\n");
+	printf("\n\n\n\n\t\t\t\t\t  ALL THE BEST!\n\n\n\n");
 	clear(enter);
 	jump:
 	{
@@ -68,7 +68,7 @@ int main()
 	return 0;
 }
 void clear(char enter){
-	printf("\n\n\n\n\t\t\t\t\t   Press ENTER to continue");
+	printf("\n\n\n\n\t\t\t\t     Press ENTER to continue");
 	scanf("%c",&enter);
 	system("cls");
 }
