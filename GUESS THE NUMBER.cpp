@@ -55,7 +55,7 @@ int main()
 			printf("\n\n\n\t\t\tCONGRATS..! YOU WON !!.\n");
 		}
 	}
-	printf("\nDo you want to try again (y/n):");
+	printf("\nDo you want to play again (y/n):");
 	char a;
 	scanf(" %c",&a);
 	if(a=='y'){
