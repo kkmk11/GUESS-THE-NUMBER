@@ -58,7 +58,7 @@ int main()
 	printf("\nDo you want to play again (y/n):");
 	char a;
 	scanf(" %c",&a);
-	if(a=='y'){
+	if((c=='Y') || (c=='y')){
 		system("cls");
 		goto jump;
 	}
